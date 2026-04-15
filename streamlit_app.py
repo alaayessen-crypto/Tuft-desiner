@@ -3,7 +3,6 @@ from PIL import Image
 import numpy as np
 import io
 import struct
-from scipy.ndimage import gaussian_filter
 from sklearn.cluster import KMeans
 import warnings
 warnings.filterwarnings("ignore")
